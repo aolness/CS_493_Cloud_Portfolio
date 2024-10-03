@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display info</title>
+    </head>
+    <body>
+        <h1>Hello {{ token['userinfo']['nickname']}}!</h1>
+        <p><h4>Here is your jwt:</h4> {{token['id_token']}}</p>
+        <p><h4>Here is your ID:</h4> {{token['userinfo']['sub']}}</p>
+    </body>
+    
+</html>
